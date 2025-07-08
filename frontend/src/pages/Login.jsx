@@ -3,7 +3,7 @@ import Linkneer from "../assets/Linkneer.png"
 import { useNavigate } from "react-router-dom"
 import { authDataContext } from '../context/AuthContext'
 import axios from "axios"
-import { userDataContext } from '../context/userContext'
+import { userDataContext } from '../context/UserContext'
 
 function Login() {
   let [show, setShow] = useState(false)

@@ -5,7 +5,7 @@ import { TiHome } from "react-icons/ti";
 import { FaUserGroup } from "react-icons/fa6";
 import { MdExplore } from "react-icons/md";
 import dp from "../assets/dp.webp";
-import { userDataContext } from '../context/userContext';
+import { userDataContext } from '../context/UserContext';
 import { authDataContext } from '../context/AuthContext';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
