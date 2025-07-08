@@ -1,0 +1,50 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fb;
+  color: #333;
+}
+
+.card {
+  background: linear-gradient(135deg, #ffffff, #f0faff);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #2dc0ff, #24b2ff);
+  color: white;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 188, 212, 0.3);
+}
+
+textarea:focus,
+input[type='text']:focus {
+  border: 1px solid #00bcd4;
+  outline: none;
+  background: #fefeff;
+}
+
+.profile-img {
+  border: 3px solid #2dc0ff55;
+  transition: border-color 0.3s ease;
+}
+.profile-img:hover {
+  border-color: #2dc0ff;
+}
+
+.icon-hover:hover {
+  color: #00bcd4;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+.suggestion-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
