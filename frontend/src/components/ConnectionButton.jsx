@@ -4,7 +4,8 @@ import axios from 'axios'
 import io from "socket.io-client"
 import { userDataContext } from '../context/UserContext'
 import { useNavigate } from 'react-router-dom'
-const socket=io("http://localhost:8000")
+
+const socket=io(import.meta.env.ITE_BACKEND_URL)
 function ConnectionButton({userId}) {
 let {serverUrl}=useContext(authDataContext)
 let {userData,setUserData}=useContext(userDataContext)
